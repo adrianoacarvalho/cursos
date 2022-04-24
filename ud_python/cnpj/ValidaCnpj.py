@@ -22,7 +22,13 @@ Recap.
 543298765432 -> Primeiro digito
 6543298765432 -> Segunro digito
 """
+import re
+
+def rm_caracteres(expressao):
+    return re.sub(r'[^0-9]', '', expressao)
+
 def validaCnpj(cnpj):
+    cnpj = rm_caracteres(cnpj)
     if (len(cnpj) != 14) or not cnpj.isnumeric():  #verifica tamanho da string e se é numérico, importante aumentar o nível de validação
         raise ValueError('CNPJ deve ter 14 números!')
   
