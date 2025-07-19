@@ -1,0 +1,41 @@
+#Instrucoes
+nome: "Nome da Pessoa"
+idade: 40  #aqui a idade
+
+#Este é um objeto
+objeto:
+        versao: 2
+        arquivo: "teste.txt"
+
+
+versao: 2
+versao_completa: 2.13
+
+string_sem_aspas: Digite um texto aqui
+texto: "Com aspas"
+
+valor_nulo: ~
+valor_null: null
+
+valor_true: True
+valor_on: On
+
+valor_false: False
+valor_off: Off
+
+lista1: [1,2,3,4,5]
+lista2: 
+        - "um"
+        - 2
+        - On
+        - 4
+
+dict: {a:1, b:2, c:3}
+
+dict2:
+        a: 1
+        b: 2
+        c: 3
+        objeto: 
+                a: 4
+                b: 5
